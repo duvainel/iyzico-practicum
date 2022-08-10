@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f1de;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  text-align: center;
+  color: #ff6a23;
+}
+
+h4 {
+  font-family: "IM Fell Great Primer SC", serif;
+  color: #e00a00;
+}
+
+.menu {
+  margin-top: 3rem;
+}
+
+/* Filter buttons container styles */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* Filter buttons alignment */
+.btn-item {
+  margin-left: 15px;
+}
+
+/* Food photos styles */
+.photo {
+  width: 30%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Food card styles */
+.menu-items {
+  display: flex;
+  margin: 20px auto;
+  padding: 1rem;
+  height: max-content;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.545);
+}
+
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
